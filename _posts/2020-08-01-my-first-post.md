@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My New Post"
+title: "First post on Hitchens!"
 author: "Shrinidhi"
 categories: blog
 ---
