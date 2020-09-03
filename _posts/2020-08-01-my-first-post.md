@@ -6,5 +6,9 @@ categories: blog
 ---
 
 ## Welcome
-My name is Shrinidhi. This is my static page for my blog posts.
+Hi there! 
+
+This is my static page for my blog posts.
+
+Brace yourself for a series of completely unrelated posts from the attics of my brain.
 
