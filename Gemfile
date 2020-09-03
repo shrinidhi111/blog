@@ -6,3 +6,4 @@ gemspec
 # for demo site
 gem "jekyll-paginate"
 gem "jekyll-spaceship"
+gem "kramdown-parser-gfm"
