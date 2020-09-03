@@ -41,7 +41,6 @@ markdown: kramdown
 
 plugins:
   - jekyll-paginate
-  - jekyll-mermaid
   - jekyll-spaceship
 
 paginate: 5
