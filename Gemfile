@@ -5,4 +5,4 @@ gemspec
 
 # for demo site
 gem "jekyll-paginate"
-gem "jekyll-mermaid"
+gem "jekyll-spaceship"
