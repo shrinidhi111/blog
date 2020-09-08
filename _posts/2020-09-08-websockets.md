@@ -21,7 +21,7 @@ All that said, I am quite excited with the current progress that has been made a
 
 Stub name of the psudeo company :: "Svasa Technologies"
 
-URL :: https://svasa.tech/
+URL :: [https://svasa.tech/](https://svasa.tech/)
 
 And yes it has SSL too. Thanks letsencrypt.
 
