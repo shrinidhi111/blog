@@ -5,7 +5,7 @@ author: "Shrinidhi"
 categories: blog
 ---
 
-### Websuckets
+### Websockets
 
 The issue is not so much about the actual protocol but about the technologies implementing them. I began with AWS Lambda and got stuck at basically every turn due to the limited library support and god its so confusing for my usecase.
 
@@ -28,7 +28,3 @@ And yes it has SSL too. Thanks letsencrypt.
 ### Will be right back
 
 Will complete the sockets thingy today. After that I have to implement the graffer to test. Then the APIs for agent to access them. And also think about how to link agents with graffers.
-
-Hopefully we will be in a much better position to answer these questions when we come back tomorrow.
-
-Good luck!
