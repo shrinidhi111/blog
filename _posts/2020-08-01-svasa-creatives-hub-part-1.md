@@ -34,12 +34,4 @@ The interface with which end users interact with their devices. Users send comma
 ### Cloud
 
 The one who connects agents to graffers and handles all the authentication and monitoring of it.
-<!-- 
-#### Agent Interaction
-
-```mermaid!
-graph TD;
-  Instruments--\>Cloud;
-  Grafers--\>Cloud;
-``` -->
 
