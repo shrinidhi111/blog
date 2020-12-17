@@ -8,7 +8,7 @@ date: 2020-08-02
 
 # Architectue
 
-3 main components. 
+4 main components. 
 
 1. Cloud
 2. Graffer
@@ -34,12 +34,12 @@ The interface with which end users interact with their devices. Users send comma
 ### Cloud
 
 The one who connects agents to graffers and handles all the authentication and monitoring of it.
-
+<!-- 
 #### Agent Interaction
 
 ```mermaid!
 graph TD;
-  A-->B;
-  A-->C;
-```
+  Instruments--\>Cloud;
+  Grafers--\>Cloud;
+``` -->
 
