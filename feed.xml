@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shrinidhi Rao</title>
+    <description>Hacker, Programmer, Tinkerer.</description>
+    <link>https://shrinidhi111.github.io/blog/</link>
+    <atom:link href="https://shrinidhi111.github.io/blog/feed/index.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 17 Dec 2020 17:23:18 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Dec 2020 17:23:18 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      
+        <item>
+          
+            <title>So my project development begins...</title>
+          
+          <author>shrinidhi.programmer@gmail.com (Shrinidhi Rao)</author>
+          <description>
+            &lt;h3 id=&quot;websockets&quot;&gt;Websockets&lt;/h3&gt;
+
+&lt;p&gt;The issue is not so much about the actual protocol but about the technologies implementing them. I began with AWS Lambda and got stuck at basically every turn due to the limited library support and god its so confusing for my usecase.&lt;/p&gt;
+
+&lt;p&gt;Now I changed gears and moved on to asp.net core on an EC2 instance under free tier. Having one place is much easier to manage all the dependencies.&lt;/p&gt;
+
+&lt;p&gt;But that is not without its issues thought. Microsoft documentations are difficult to follow at times and there are no good code examples for this.&lt;/p&gt;
+
+&lt;p&gt;My best bet is finding and going through one tutorial and see where that brings me.&lt;/p&gt;
+
+&lt;h3 id=&quot;domains-live&quot;&gt;Domains live!&lt;/h3&gt;
+
+&lt;p&gt;All that said, I am quite excited with the current progress that has been made along the architectural lines. I purchased my first ever domain for the cloud manager so all graffers can use one specific URL. But later figured I can use this to publish an entire website showcasing the IoT access hub. It is named after my dad.&lt;/p&gt;
+
+&lt;p&gt;Stub name of the psudeo company :: “Svasa Technologies”&lt;/p&gt;
+
+&lt;p&gt;URL :: &lt;a href=&quot;https://svasa.tech/&quot;&gt;https://svasa.tech/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And yes it has SSL too. Thanks letsencrypt.&lt;/p&gt;
+
+&lt;h3 id=&quot;will-be-right-back&quot;&gt;Will be right back&lt;/h3&gt;
+
+&lt;p&gt;Will complete the sockets thingy today. After that I have to implement the graffer to test. Then the APIs for agent to access them. And also think about how to link agents with graffers.&lt;/p&gt;
+
+          </description>
+          <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+          <link>https://shrinidhi111.github.io/blog/blog/2020/09/08/websockets.html</link>
+          <guid isPermaLink="true">https://shrinidhi111.github.io/blog/blog/2020/09/08/websockets.html</guid>
+          
+          
+          <category>blog</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>What is the Svasa IoT IP Switch</title>
+          
+          <author>shrinidhi.programmer@gmail.com (Shrinidhi Rao)</author>
+          <description>
+            &lt;h1 id=&quot;architectue&quot;&gt;Architectue&lt;/h1&gt;
+
+&lt;p&gt;4 main components.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cloud&lt;/li&gt;
+  &lt;li&gt;Graffer&lt;/li&gt;
+  &lt;li&gt;Instrument&lt;/li&gt;
+  &lt;li&gt;Agent&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;graffer&quot;&gt;Graffer&lt;/h2&gt;
+
+&lt;p&gt;The managing module that handles and monitors the local IoT instruments. These IoT devices can be connected to a network or directly to the graffer.&lt;/p&gt;
+
+&lt;p&gt;Graffer is not a physical device but a service that can run on a physical device. It can installed on a Windows computer as a GUI application and connect to Arduino based instruments over USB or it can be installed as CLI in raspberry pi controlling devices over the local network.&lt;/p&gt;
+
+&lt;p&gt;Support will be soon added for Google Home and iOS Home either to the graffer (preferred) or to the instruments directly.&lt;/p&gt;
+
+&lt;h2 id=&quot;instruments&quot;&gt;Instruments&lt;/h2&gt;
+
+&lt;p&gt;These are the IoT devices all the way from Arduino based controllers to LAN printers. Simple devices that perform action based on the commands from Graffers.&lt;/p&gt;
+
+&lt;h3 id=&quot;agent&quot;&gt;Agent&lt;/h3&gt;
+
+&lt;p&gt;The interface with which end users interact with their devices. Users send commands such as activate and deactive to the desired instrument connected to graffer. Commands can be sent from any location. It can be installed in your phone as an app or simply use the web client.&lt;/p&gt;
+
+&lt;h3 id=&quot;cloud&quot;&gt;Cloud&lt;/h3&gt;
+
+&lt;p&gt;The one who connects agents to graffers and handles all the authentication and monitoring of it.&lt;/p&gt;
+
+
+          </description>
+          <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+          <link>https://shrinidhi111.github.io/blog/blog/2020/08/02/svasa-creatives-hub-part-1.html</link>
+          <guid isPermaLink="true">https://shrinidhi111.github.io/blog/blog/2020/08/02/svasa-creatives-hub-part-1.html</guid>
+          
+          
+          <category>blog</category>
+          
+        </item>
+      
+    
+      
+        <item>
+          
+            <title>First post on Hitchens!</title>
+          
+          <author>shrinidhi.programmer@gmail.com (Shrinidhi Rao)</author>
+          <description>
+            &lt;h2 id=&quot;welcome&quot;&gt;Welcome&lt;/h2&gt;
+&lt;p&gt;Hi there!&lt;/p&gt;
+
+&lt;p&gt;This is my static page for my blog posts.&lt;/p&gt;
+
+&lt;p&gt;Brace yourself for a series of completely unrelated posts from the attics of my brain.&lt;/p&gt;
+
+
+          </description>
+          <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+          <link>https://shrinidhi111.github.io/blog/blog/2020/08/01/my-first-post.html</link>
+          <guid isPermaLink="true">https://shrinidhi111.github.io/blog/blog/2020/08/01/my-first-post.html</guid>
+          
+          
+          <category>blog</category>
+          
+        </item>
+      
+    
+  </channel>
+</rss>

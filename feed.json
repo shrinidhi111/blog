@@ -1,0 +1,64 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Shrinidhi Rao",
+    "home_page_url": "",
+    "feed_url": "https://shrinidhi111.github.io/blog/feed.json",
+    "description": "Hacker, Programmer, Tinkerer.",
+    "icon": "https://shrinidhi111.github.io/blog/assets/images/icon-512.png",
+    "favicon": "https://shrinidhi111.github.io/blog/favicon.ico",
+    "expired": false,
+    "items": [
+    
+      
+        
+        
+        {
+            "id": "https://shrinidhi111.github.io/blog/blog/2020/09/08/websockets.html",
+            "title": "So my project development begins...",
+            "content_text": "Websockets\n\nThe issue is not so much about the actual protocol but about the technologies implementing them. I began with AWS Lambda and got stuck at basically every turn due to the limited library support and god its so confusing for my usecase.\n\nNow I changed gears and moved on to asp.net core on an EC2 instance under free tier. Having one place is much easier to manage all the dependencies.\n\nBut that is not without its issues thought. Microsoft documentations are difficult to follow at times and there are no good code examples for this.\n\nMy best bet is finding and going through one tutorial and see where that brings me.\n\nDomains live!\n\nAll that said, I am quite excited with the current progress that has been made along the architectural lines. I purchased my first ever domain for the cloud manager so all graffers can use one specific URL. But later figured I can use this to publish an entire website showcasing the IoT access hub. It is named after my dad.\n\nStub name of the psudeo company :: “Svasa Technologies”\n\nURL :: https://svasa.tech/\n\nAnd yes it has SSL too. Thanks letsencrypt.\n\nWill be right back\n\nWill complete the sockets thingy today. After that I have to implement the graffer to test. Then the APIs for agent to access them. And also think about how to link agents with graffers.\n",
+            "content_html": "<h3 id=\"websockets\">Websockets</h3>\n\n<p>The issue is not so much about the actual protocol but about the technologies implementing them. I began with AWS Lambda and got stuck at basically every turn due to the limited library support and god its so confusing for my usecase.</p>\n\n<p>Now I changed gears and moved on to asp.net core on an EC2 instance under free tier. Having one place is much easier to manage all the dependencies.</p>\n\n<p>But that is not without its issues thought. Microsoft documentations are difficult to follow at times and there are no good code examples for this.</p>\n\n<p>My best bet is finding and going through one tutorial and see where that brings me.</p>\n\n<h3 id=\"domains-live\">Domains live!</h3>\n\n<p>All that said, I am quite excited with the current progress that has been made along the architectural lines. I purchased my first ever domain for the cloud manager so all graffers can use one specific URL. But later figured I can use this to publish an entire website showcasing the IoT access hub. It is named after my dad.</p>\n\n<p>Stub name of the psudeo company :: “Svasa Technologies”</p>\n\n<p>URL :: <a href=\"https://svasa.tech/\">https://svasa.tech/</a></p>\n\n<p>And yes it has SSL too. Thanks letsencrypt.</p>\n\n<h3 id=\"will-be-right-back\">Will be right back</h3>\n\n<p>Will complete the sockets thingy today. After that I have to implement the graffer to test. Then the APIs for agent to access them. And also think about how to link agents with graffers.</p>\n",
+            "url": "https://shrinidhi111.github.io/blog/blog/2020/09/08/websockets.html",
+            "date_published": "2020-09-08T00:00:00+00:00",
+            "date_modified": "2020-09-08T00:00:00+00:00",
+            "author": {
+                "name": "Shrinidhi"
+            }
+        },
+        
+    
+      
+        
+        
+        {
+            "id": "https://shrinidhi111.github.io/blog/blog/2020/08/02/svasa-creatives-hub-part-1.html",
+            "title": "What is the Svasa IoT IP Switch",
+            "content_text": "Architectue\n\n4 main components.\n\n\n  Cloud\n  Graffer\n  Instrument\n  Agent\n\n\nGraffer\n\nThe managing module that handles and monitors the local IoT instruments. These IoT devices can be connected to a network or directly to the graffer.\n\nGraffer is not a physical device but a service that can run on a physical device. It can installed on a Windows computer as a GUI application and connect to Arduino based instruments over USB or it can be installed as CLI in raspberry pi controlling devices over the local network.\n\nSupport will be soon added for Google Home and iOS Home either to the graffer (preferred) or to the instruments directly.\n\nInstruments\n\nThese are the IoT devices all the way from Arduino based controllers to LAN printers. Simple devices that perform action based on the commands from Graffers.\n\nAgent\n\nThe interface with which end users interact with their devices. Users send commands such as activate and deactive to the desired instrument connected to graffer. Commands can be sent from any location. It can be installed in your phone as an app or simply use the web client.\n\nCloud\n\nThe one who connects agents to graffers and handles all the authentication and monitoring of it.\n\n",
+            "content_html": "<h1 id=\"architectue\">Architectue</h1>\n\n<p>4 main components.</p>\n\n<ol>\n  <li>Cloud</li>\n  <li>Graffer</li>\n  <li>Instrument</li>\n  <li>Agent</li>\n</ol>\n\n<h2 id=\"graffer\">Graffer</h2>\n\n<p>The managing module that handles and monitors the local IoT instruments. These IoT devices can be connected to a network or directly to the graffer.</p>\n\n<p>Graffer is not a physical device but a service that can run on a physical device. It can installed on a Windows computer as a GUI application and connect to Arduino based instruments over USB or it can be installed as CLI in raspberry pi controlling devices over the local network.</p>\n\n<p>Support will be soon added for Google Home and iOS Home either to the graffer (preferred) or to the instruments directly.</p>\n\n<h2 id=\"instruments\">Instruments</h2>\n\n<p>These are the IoT devices all the way from Arduino based controllers to LAN printers. Simple devices that perform action based on the commands from Graffers.</p>\n\n<h3 id=\"agent\">Agent</h3>\n\n<p>The interface with which end users interact with their devices. Users send commands such as activate and deactive to the desired instrument connected to graffer. Commands can be sent from any location. It can be installed in your phone as an app or simply use the web client.</p>\n\n<h3 id=\"cloud\">Cloud</h3>\n\n<p>The one who connects agents to graffers and handles all the authentication and monitoring of it.</p>\n\n",
+            "url": "https://shrinidhi111.github.io/blog/blog/2020/08/02/svasa-creatives-hub-part-1.html",
+            "date_published": "2020-08-02T00:00:00+00:00",
+            "date_modified": "2020-08-02T00:00:00+00:00",
+            "author": {
+                "name": "Shrinidhi"
+            }
+        },
+        
+    
+      
+        
+        
+        {
+            "id": "https://shrinidhi111.github.io/blog/blog/2020/08/01/my-first-post.html",
+            "title": "First post on Hitchens!",
+            "content_text": "Welcome\nHi there!\n\nThis is my static page for my blog posts.\n\nBrace yourself for a series of completely unrelated posts from the attics of my brain.\n\n",
+            "content_html": "<h2 id=\"welcome\">Welcome</h2>\n<p>Hi there!</p>\n\n<p>This is my static page for my blog posts.</p>\n\n<p>Brace yourself for a series of completely unrelated posts from the attics of my brain.</p>\n\n",
+            "url": "https://shrinidhi111.github.io/blog/blog/2020/08/01/my-first-post.html",
+            "date_published": "2020-08-01T00:00:00+00:00",
+            "date_modified": "2020-08-01T00:00:00+00:00",
+            "author": {
+                "name": "Shrinidhi"
+            }
+        }
+        
+    
+    ]
+}
